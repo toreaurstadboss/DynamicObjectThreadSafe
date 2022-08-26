@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicObjectThreadSafe", "DynamicObjectThreadSafe.csproj", "{572D2C49-D55A-44BE-A61B-1CE4FB503FAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicObjectThreadSafe.Tests", "..\DynamicObjectThreadSafe.Tests\DynamicObjectThreadSafe.Tests.csproj", "{6A9FAB90-DF0D-4338-ACC7-CF206F7C301C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{572D2C49-D55A-44BE-A61B-1CE4FB503FAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{572D2C49-D55A-44BE-A61B-1CE4FB503FAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{572D2C49-D55A-44BE-A61B-1CE4FB503FAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{572D2C49-D55A-44BE-A61B-1CE4FB503FAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A9FAB90-DF0D-4338-ACC7-CF206F7C301C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A9FAB90-DF0D-4338-ACC7-CF206F7C301C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A9FAB90-DF0D-4338-ACC7-CF206F7C301C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A9FAB90-DF0D-4338-ACC7-CF206F7C301C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23E8FE00-7314-4569-BB85-DC17889AF5ED}
+	EndGlobalSection
+EndGlobal
